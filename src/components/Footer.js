@@ -50,6 +50,7 @@ function Footer() {
             <a href="/">Troubleshooting</a>
             <a href="/">Contact Us</a>
         </div>
+        <div></div>
       </div>
     </div>
   );
