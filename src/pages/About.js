@@ -1,6 +1,8 @@
 import React from 'react'
 import Herosection from '../components/Herosection'
 import HeroImg from '../images/Kashmir.jpg'
+import Aboutus from '../components/Aboutus'
+
 
 function About() {
     let hero = {
@@ -12,6 +14,7 @@ function About() {
   return (
     <div>
         <Herosection {...hero}/>
+        <Aboutus />
     </div>
   )
 }

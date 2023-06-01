@@ -4,7 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Service from "./pages/Service";
-import { Routes,Route } from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/contact" element={<Contact />} />
-      </Routes>  
+      </Routes>
+      <Footer />
     </div>
   );
 }

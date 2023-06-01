@@ -1,6 +1,8 @@
 import React from 'react'
 import Herosection from '../components/Herosection'
 import HeroImg from '../images/Rajasthan.jpg'
+import TrendingDestination from '../components/TrendingDestination'
+
 
 function Service() {
     let hero = {
@@ -11,6 +13,7 @@ function Service() {
   return (
     <div>
         <Herosection {...hero}/>
+        <TrendingDestination />
     </div>
   )
 }

@@ -2,6 +2,9 @@ import React from 'react'
 import "../css/HomeStyle.css"
 import Herosection from '../components/Herosection'
 import HeroImg from '../images/Kerala.jpg'
+import Destination from '../components/Destination'
+import TrendingDestination from '../components/TrendingDestination'
+
 
 function Home() {
     let hero = {
@@ -17,6 +20,8 @@ function Home() {
   return (
     <div>
         <Herosection {...hero}/>
+        <Destination/>
+        <TrendingDestination />
     </div>
   )
 }
