@@ -7,7 +7,7 @@ function TrendingDestination() {
   return (
     <div className='trend'>
         <h1>Top Trending India Holiday Destinations</h1>
-        <p>You can discover unique destinations using Google Maps.</p>
+        <p className='trend-p'>You can discover unique destinations using Google Maps.</p>
         <div className="trendcard">
             {Trend.map((item,index)=>{
                 return(

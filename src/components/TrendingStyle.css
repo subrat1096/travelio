@@ -5,6 +5,9 @@
 .trend h1{
     font-size: 3rem;
 }
+.trend-p{
+    font-size: 1.3rem;
+}
 .trendcard{
     margin-top: 3rem;
     display: flex;
